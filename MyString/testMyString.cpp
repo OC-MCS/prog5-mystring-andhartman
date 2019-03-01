@@ -47,7 +47,10 @@ int main()
 	//s2 = test(s4);
 	//cout << s2;
 
-	//everything tested (above) works!!!
+	//if (s2 == s3)
+	//	cout << "yay";
+
+	//everything tested (above) works exactly as expected!!!
 
 	return 0;
 }
