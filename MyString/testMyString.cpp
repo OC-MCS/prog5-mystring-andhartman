@@ -20,6 +20,7 @@ MyString test(MyString other)
 
 int main()
 {
+	//test all ways to initiate a MyString
 	MyString s1;
 	MyString s2("a");
 	MyString s3(s2);
@@ -29,24 +30,26 @@ int main()
 	//cout << s2 << endl;
 	//cout << s3 << endl;
 
+	//test = operator
 	//s1 = s2;
 	//s1 = s1;
 	//cout << s1 << endl;
+	//s1 = s3 = s4;
+	//cout << s1 << s3 << s4;
 
+	//test + operator
 	//s1 = "hello";
 	//s2 = " world";
 	//s3 = s1 + s2;
 	//cout << s3 << endl;
-
-	//s1 = s3 = s4;
-	//cout << s1 << s3 << s4;
 	   
+	//test putting in and returning from function
 	//display(s4);
-
 	//cout << s2;
 	//s2 = test(s4);
 	//cout << s2;
 
+	//test == operator
 	//if (s2 == s3)
 	//	cout << "yay";
 
